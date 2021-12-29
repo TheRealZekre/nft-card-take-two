@@ -1,3 +1,8 @@
+/* typography 
+Font size (paragraph): 18px
+ /*Font Family: Outfit - weights: 300, 400, 600 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 /* Simple CSS reset */
 
 * {
@@ -5,31 +10,66 @@
     padding: 0px;
     box-sizing: border-box;
     font-size: 18px;
-  }
-
+}
+a {
+    text-decoration: none;
+}
+:root {
 /* colors */
 /* Primary */
---soft-blue: hsl(215, 51%, 70%)
---cyan: hsl(178, 100%, 50%)
+
+--soft-blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+
 /* Neutral */
---very-dark-blue(main-BG): hsl(217, 54%, 11%)
---very-dark-blue(card-BG): hsl(216, 50%, 16%)
---very-dark-blue(line): hsl(215, 32%, 27%)
---white: hsl(0, 0%, 100%)
 
-/* typography 
-Font size (paragraph): 18px
- /*Font Family: Outfit - weights: 300, 400, 600 */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+--very-dark-blue-main-BG: hsl(217, 54%, 11%);
+--very-dark-blue-card-BG: hsl(216, 50%, 16%);
+--very-dark-blue-line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
 
+body {
+    background-color: var(--very-dark-blue-main-BG);
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 300px;
+    background-color: var(--very-dark-blue-card-BG);
+}
 
+.first-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 10px;
+    
+}
 
-
-
-
-
-
+a .main-image {
+    
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+a .main-image:hover {
+    position: absolute;
+    top: 0;
+    left: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    background-color: var(--cyan);
+    overflow: hidden;
+    opacity: 0;
+}
 
 
 /* Footer */

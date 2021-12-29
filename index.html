@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+
 
   <title>Frontend Mentor | NFT preview card component</title>
 
@@ -15,12 +16,17 @@
 </head>
 
 <body>
-  <main>
+  <main class="card">
+
     <section class="first-container">
-      <a href="#">
-        <img src="images/image-equilibrium.jpg" alt="" / height="300px">
-      </a>
+      <div class="image-container">
+        <a href="#">
+          <img src="images/image-equilibrium.jpg" alt="" class="main-image" />
+        </a>
+        <img src="/images/icon-view.svg" alt="" class="img-hover"/>
+      </div>
     </section>
+
     <section class="second-container">
       <a href="#">
         <h1>Equilibrium #3429</h1>
