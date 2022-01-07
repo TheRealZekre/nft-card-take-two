@@ -97,11 +97,14 @@ body {
 }
 
 .fourth-contaier {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    
+    
 }
-
+.subcard-four {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
 
 /* Footer */
