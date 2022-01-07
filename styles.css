@@ -6,8 +6,8 @@ Font size (paragraph): 18px
 /* Simple CSS reset */
 
 * {
-    /*margin: 0px;
-    padding: 0px;*/
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-size: 18px;
     font-family: Outfit;
@@ -37,22 +37,25 @@ Font size (paragraph): 18px
 
 body {
     background-color: var(--very-dark-blue-main-BG);
+    margin-top: 100px;
+    
 }
 
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
     width: 300px;
     margin: auto;
     padding: 20px;
     background-color: var(--very-dark-blue-card-BG);
+    border-radius: 10px;
 }
-
+    /* First container aligment */
 .first-container {
     display: flex;
     position: relative;
+    
 }
 
 .hover-container {
@@ -79,8 +82,25 @@ body {
     border-radius: 10px;
     background-size: contain;
 }
+.second-container {
+    padding: 10px 0;
+    color: var(--white);
+    
+}
+.second-container>h1:hover {
+    color: var(--cyan);
+}
 
+.third-container {
+    padding: 10px 0;
+    color: var(--soft-blue);
+}
 
+.fourth-contaier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
 
@@ -88,9 +108,9 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
 
-  }
+}
