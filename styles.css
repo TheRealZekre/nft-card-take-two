@@ -50,15 +50,34 @@ body {
     background-color: var(--very-dark-blue-card-BG);
 }
 
+.first-container {
+    display: block;
+    position: relative;
+    top: 0;
+   
+}
+
 .main-image {
+    position: relative;
+    top: 20px;
+
     display: block;
     width: 100%;
-    height: 100%;    
-    z-index: 1;
+        
+    
     border-radius: 10px;
 }
 
-
+a > .first-container:hover {
+    position: absolute;
+    background-image: url(./images/icon-view.svg);
+    
+    background-color: var(--cyan);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 3;
+}
 
 
 
