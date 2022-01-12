@@ -94,11 +94,11 @@ body {
 .third-container {
     padding: 10px 0;
     color: var(--soft-blue);
+    
 }
 
-.fourth-contaier {
-    
-    
+.fourth-container {
+    margin: 25px 0;
 }
 .subcard-four {
     display: flex;
@@ -106,6 +106,9 @@ body {
     
 }
 
+.fifth-container {
+    margin: 25px 0;
+}
 
 /* Footer */
 .attribution {
