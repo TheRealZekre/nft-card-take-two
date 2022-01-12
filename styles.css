@@ -99,10 +99,11 @@ body {
 
 .fourth-container {
     margin: 25px 0;
+    
 }
 .subcard-four {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
