@@ -98,13 +98,12 @@ body {
 }
 
 .fourth-container {
-    margin: 25px 0;
     
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 .subcard-four {
-    display: flex;
-    justify-content: space-between;
-    
 }
 
 .fifth-container {
