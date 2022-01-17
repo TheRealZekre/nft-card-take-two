@@ -117,15 +117,26 @@ body {
     
 }
 
-
 .fifth-container {
+    display: flex;
+    gap: 10px;
     margin: 25px 0;
+    color: var(--soft-blue);
+}
+
+.creator {
+    color: var(--white);
+}
+
+.creator:hover {
+    color: var(--cyan);
 }
 
 /* Footer */
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--white);
 }
 
 .attribution a {
