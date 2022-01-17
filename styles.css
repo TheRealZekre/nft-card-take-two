@@ -98,15 +98,25 @@ body {
 }
 
 .fourth-container {
-    padding: 20px;
-    display: flex;
-    
-    gap: 20px;
-}
-.subcard-four {
+    width: 100%;    
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
+.currency {
+    color: var(--cyan);
+}
+.days {
+    color: var(--soft-blue);
+}
+
+.line {
+    border: solid 1px var(--very-dark-blue-line);
+    
+    margin-top: 20px;
+    
+}
+
 
 .fifth-container {
     margin: 25px 0;
